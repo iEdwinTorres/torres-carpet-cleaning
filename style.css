@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1441px) {
+    #top{
+        color: #fff;
+    }
+
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
@@ -258,14 +262,12 @@
     }
     .flex-container .column {
         padding: 10px;
-        /* background: #dbdfe5; */
         -webkit-flex: 1; /* Safari */
         -ms-flex: 1; /* IE 10 */
         flex: 1; /* Standard syntax */
     }
     .flex-container .column-alt {
         padding: 10px;
-        /* background: #dbdfe5; */
         -webkit-flex: 1; /* Safari */
         -ms-flex: 1; /* IE 10 */
         flex: 1; /* Standard syntax */
@@ -341,6 +343,9 @@
     #contact-img-M {
         display: none;
     }
+    span {
+        display: inline-block;
+    }
 
     #footer {
         text-align: center;
@@ -355,370 +360,57 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0;
-        /* line-height: 1.6; */
-    }
-
     .nav-container {
-        justify-content: center;
-        margin: auto;
-        overflow: hidden;
         width: 85%;
     }
-    #mainNav {
-        display: flex;
-        background: #2e4169;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 50px;
-    }
-    #column-L {
-        float: left;
-        padding-top: 13px;
-    }
-    #column-R {
-        float: right;
-    }
-    #mainNav ul {
-        margin: 16px auto;
-        padding: 0px;
-        list-style: none;
-    }
 
-    #mainNav li:hover {
-        background: #000;
-    }
     #mainNav li {
-        display: inline;
         padding: 17px 12px;
-    }
-    #mainNav em {
-        font-size: 20px;
-    }
-    #mainNav a {
-        color: #fff;
-        text-decoration: none;
     }
 
     .container {
         width: 90%;
-        margin: auto;
-        overflow: hidden;
-        justify-content: center;
     }
 
-    #hero {
-        margin-top: 50px;
-        width: 100%;
-        background: linear-gradient(
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0.22)
-            ),
-            url(../img/white.jpg);
-    }
     #hero img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 75%;
-        padding: 50px 0px;
     }
 
     .flex-container {
         width: 90%;
-        margin: 0 auto;
-        display: -webkit-flex; /* Safari */
-        display: flex; /* Standard syntax */
-    }
-    .flex-container .column {
-        padding: 10px;
-        /* background: #dbdfe5; */
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
-    }
-    /* .flex-container .column-alt{
-    } */
-
-    #services {
-        background: #c7c7c7;
-        padding-top: 50px;
-        padding-bottom: 0px;
-    }
-    #services #firstImg {
-        float: left;
-        width: 95%;
-        padding: 40px 40px 30px 20px;
-    }
-    #services #proceedingimg {
-        float: left;
-        width: 95%;
-        padding: 0px 40px 30px 20px;
-    }
-    #services h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #services p {
-        padding: 20px;
-        margin: auto;
     }
 
-    #about {
-        background: #fff;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #about img {
-        float: right;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
-    #about h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
-    }
     #about p {
         padding: 20px 75px;
-        margin: auto;
-    }
-
-    #contact {
-        background: #c6e3ea;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #contact-img {
-        float: left;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
-    #contact h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #contact p {
-        padding: 20px;
-        margin: auto;
-    }
-    #contact-img-M {
-        display: none;
-    }
-    span {
-        display: inline-block;
-    }
-
-    #footer {
-        text-align: center;
-    }
-    #footer-img {
-        width: 100%;
-    }
-    #footer p {
-        text-align: center;
-        padding-bottom: 20px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .nav-container {
-        justify-content: center;
-        margin: auto;
-        overflow: hidden;
-        width: 85%;
-    }
-    #mainNav {
-        display: flex;
-        background: #2e4169;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 50px;
-    }
-    #column-L {
-        float: left;
-        padding-top: 13px;
-    }
-    #column-R {
-        float: right;
-    }
-    #mainNav ul {
-        margin: 16px auto;
-        padding: 0px;
-        list-style: none;
-    }
-
-    #mainNav li:hover {
-        background: #000;
-    }
-    #mainNav li {
-        display: inline;
-        padding: 17px 11px;
-    }
-    #mainNav em {
-        font-size: 20px;
-    }
-    #mainNav a {
-        color: #fff;
-        text-decoration: none;
-    }
-
     .container {
         width: 100%;
-        margin: auto;
-        overflow: hidden;
-        justify-content: center;
     }
 
-    #hero {
-        margin-top: 50px;
-        width: 100%;
-        background: linear-gradient(
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0.22)
-            ),
-            url(../img/white.jpg);
-    }
     #hero img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 80%;
-        padding: 40px 0px 0px 0px;
     }
 
     .flex-container {
         width: 100%;
-        margin: 0 auto;
-        display: -webkit-flex; /* Safari */
-        display: flex; /* Standard syntax */
-    }
-    .flex-container .column {
-        padding: 10px;
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
-    }
-    .flex-container .column-alt {
-        padding: 10px;
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
     }
 
     #services {
-        background: #c7c7c7;
         padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    #services #firstImg {
-        float: left;
-        width: 95%;
-        padding: 40px 40px 30px 20px;
-    }
-    #services #proceedingimg {
-        float: left;
-        width: 95%;
-        padding: 0px 40px 30px 20px;
-    }
-    #services h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #services p {
-        padding: 20px;
-        margin: auto;
     }
 
-    #about {
-        background: #fff;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #about img {
-        float: right;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
-    #about h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #about p {
-        padding: 20px 50px;
-        margin: auto;
-    }
-
-    #contact {
-        background: #c6e3ea;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
     #contact-img {
-        float: left;
-        width: 40%;
         padding: 40px 40px 60px 20px;
-    }
-    #contact h1 {
-        text-align: center;
-        font-size: 50px;
-        margin: auto;
-        margin-top: 20px;
     }
     #contact p {
         padding: 20px 20px 20px 260px;
-        margin: auto;
-    }
-    #contact-img-M {
-        display: none;
-    }
-    span {
-        display: inline-block;
-    }
-
-    #footer {
-        text-align: center;
-    }
-    #footer-img {
-        width: 100%;
-    }
-    #footer p {
-        text-align: center;
-        padding-bottom: 20px;
     }
 }
 
 @media only screen and (max-width: 504px) {
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0;
-    }
-
     .nav-container {
         justify-content: center;
         width: 100%;
@@ -726,21 +418,19 @@
         overflow: hidden;
         text-align: center;
     }
+
     #mainNav {
-        display: flex;
-        background: #2e4169;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
         height: 55px;
     }
+
     #column-L {
         display: none;
     }
+
     #column-R {
         float: none;
     }
+
     #mainNav ul {
         margin: 7px 0px;
         padding: 0px;
@@ -750,35 +440,21 @@
     #mainNav li:hover {
         background: #000;
     }
+
     #mainNav li {
         display: inline;
         padding: 5px 20px;
     }
+
     #mainNav em {
         font-size: 20px;
     }
+
     #mainNav a {
         color: #fff;
         text-decoration: none;
     }
 
-    .container {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-        justify-content: center;
-    }
-
-    #hero {
-        margin-top: 50px;
-        width: 100%;
-        background: linear-gradient(
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0.22)
-            ),
-            url(../img/white.jpg);
-    }
     #hero img {
         display: block;
         margin-left: auto;
@@ -796,467 +472,116 @@
     .flex-container .column {
         display: none;
     }
-    .flex-container .column-alt {
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
-    }
 
     #services {
-        background: #c7c7c7;
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    #services #firstImg {
-        float: left;
-        width: 95%;
-        padding: 40px 40px 30px 20px;
-    }
-    #services #proceedingimg {
-        float: left;
-        width: 95%;
-        padding: 0px 40px 30px 20px;
-    }
+
     #services h1 {
-        text-align: center;
         font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
     }
+
     #services p {
         padding: 10px;
-        margin: auto;
     }
 
-    #about {
-        background: #fff;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #about img {
-        float: right;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
     #about h1 {
-        text-align: center;
         font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
     }
+
     #about p {
         padding: 20px 20px;
-        margin: auto;
     }
 
-    #contact {
-        background: #c6e3ea;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
     #contact-img {
         display: none;
     }
+
     #contact h1 {
-        text-align: center;
         font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
     }
+
     #contact p {
         padding: 20px 20px 40px 20px;
-        margin: auto;
     }
+
     #contact-img-M {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 90%;
     }
-    span {
-        display: inline-block;
-    }
 
-    #footer {
-        text-align: center;
-    }
     #footer-img-container {
         overflow: hidden;
         text-indent: -50%;
     }
+
     #footer-img {
         width: 200%;
     }
+
     #footer p {
-        text-align: center;
         font-size: 14px;
-        padding-bottom: 20px;
     }
 }
 
 @media only screen and (max-width: 375px) {
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .nav-container {
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-        text-align: center;
-    }
     #mainNav {
-        display: flex;
-        background: #2e4169;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
         height: 50px;
     }
-    #column-L {
-        display: none;
-    }
-    #column-R {
-        float: none;
-    }
-    #mainNav ul {
-        margin: 7px 0px;
-        padding: 0px;
-        width: 100%;
-    }
 
-    #mainNav li:hover {
-        background: #000;
-    }
     #mainNav li {
-        display: inline;
         padding: 5px 15px;
     }
-    #mainNav em {
-        font-size: 20px;
-    }
-    #mainNav a {
-        color: #fff;
-        text-decoration: none;
-    }
 
-    #hero {
-        margin-top: 50px;
-        width: 100%;
-        background: linear-gradient(
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0.22)
-            ),
-            url(../img/white.jpg);
-    }
     #hero img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
         padding: 25px 0px 0px 0px;
     }
 
-    .flex-container {
-        width: 100%;
-        margin: 0 auto;
-        display: -webkit-flex; /* Safari */
-        display: flex; /* Standard syntax */
-    }
-    .flex-container .column {
-        display: none;
-    }
-    .flex-container .column-alt {
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
-    }
-
     #services {
-        background: #c7c7c7;
         padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    #services #firstImg {
-        float: left;
-        width: 95%;
-        padding: 40px 40px 30px 20px;
-    }
-    #services #proceedingimg {
-        float: left;
-        width: 95%;
-        padding: 0px 40px 30px 20px;
-    }
-    #services h1 {
-        text-align: center;
-        font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #services p {
-        padding: 10px;
-        margin: auto;
     }
 
-    #about {
-        background: #fff;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #about img {
-        float: right;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
-    #about h1 {
-        text-align: center;
-        font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #about p {
-        padding: 20px 20px;
-        margin: auto;
-    }
-
-    #contact {
-        background: #c6e3ea;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #contact-img {
-        display: none;
-    }
-    #contact h1 {
-        text-align: center;
-        font-size: 40px;
-        margin: auto;
-        margin-top: 20px;
-    }
     #contact p {
         padding: 20px 20px 35px 20px;
-        margin: auto;
-    }
-    #contact-img-M {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
-    span {
-        display: inline-block;
     }
 
-    #footer {
-        text-align: center;
-    }
-    #footer-img-container {
-        overflow: hidden;
-        text-indent: -50%;
-    }
-    #footer-img {
-        width: 200%;
-    }
     #footer p {
-        text-align: center;
         font-size: 13px;
-        padding-bottom: 20px;
     }
 }
 
 @media only screen and (max-width: 320px) {
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        margin: 0;
-    }
-
-    .nav-container {
-        justify-content: center;
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-        text-align: center;
-    }
-    #mainNav {
-        display: flex;
-        background: #2e4169;
-        color: #fff;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        height: 50px;
-    }
-    #column-L {
-        display: none;
-    }
-    #column-R {
-        float: none;
-    }
-    #mainNav ul {
-        margin: 7px 0px;
-        padding: 0px;
-        width: 100%;
-    }
-
-    #mainNav li:hover {
-        background: #000;
-    }
     #mainNav li {
-        display: inline;
         padding: 5px 8px;
     }
-    #mainNav em {
-        font-size: 20px;
-    }
-    #mainNav a {
-        color: #fff;
-        text-decoration: none;
-    }
 
-    .container {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
-        justify-content: center;
-    }
-
-    #hero {
-        margin-top: 50px;
-        width: 100%;
-        background: linear-gradient(
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0),
-                rgba(0, 0, 0, 0.22)
-            ),
-            url(../img/white.jpg);
-    }
     #hero img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%;
         padding: 25px 0px 10px 0px;
     }
 
-    .flex-container {
-        width: 100%;
-        margin: 0 auto;
-        display: -webkit-flex; /* Safari */
-        display: flex; /* Standard syntax */
-    }
-    .flex-container .column {
-        display: none;
-        padding: 10px;
-        /* background: #dbdfe5; */
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
-    }
     .flex-container .bg-alt {
         padding: 10px;
-        /* background: #dbdfe5; */
-        -webkit-flex: 1; /* Safari */
-        -ms-flex: 1; /* IE 10 */
-        flex: 1; /* Standard syntax */
     }
 
-    #services {
-        background: #c7c7c7;
-        padding-top: 0px;
-        padding-bottom: 40px;
-    }
-    #services #firstImg {
-        display: none;
-        float: left;
-        width: 95%;
-        padding: 40px 40px 30px 20px;
-    }
-    #services #proceedingimg {
-        display: none;
-        float: left;
-        width: 95%;
-        padding: 0px 40px 30px 20px;
-    }
-    #services h1 {
-        text-align: center;
-        font-size: 35px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #services p {
-        padding: 10px;
-        margin: auto;
-    }
-
-    #about {
-        background: #fff;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #about img {
-        float: right;
-        width: 40%;
-        padding: 40px 40px 30px 20px;
-    }
     #about h1 {
-        text-align: center;
         font-size: 35px;
-        margin: auto;
-        margin-top: 20px;
     }
+
     #about p {
         padding: 20px 20px;
-        margin: auto;
     }
 
-    #contact {
-        background: #c6e3ea;
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    #contact-img {
-        display: none;
-    }
     #contact h1 {
-        text-align: center;
         font-size: 35px;
-        margin: auto;
-        margin-top: 20px;
-    }
-    #contact p {
-        padding: 20px;
-        margin: auto;
     }
     #contact-img-M {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
         padding-top: 20px;
     }
-    span {
-        display: inline-block;
-    }
 
-    #footer {
-        text-align: center;
-    }
-    #footer-img-container {
-        overflow: hidden;
-        text-indent: -50%;
-    }
-    #footer-img {
-        width: 200%;
-    }
     #footer p {
-        text-align: center;
         font-size: 11px;
-        padding-bottom: 20px;
     }
 }
