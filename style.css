@@ -444,7 +444,6 @@
         flex: 1; /* Standard syntax */
     }
     /* .flex-container .column-alt{
-        background: #b4bac0;
     } */
 
     #services {
@@ -750,7 +749,7 @@
     }
     #mainNav li {
         display: inline;
-        padding: 5px 21px;
+        padding: 5px 20px;
     }
     #mainNav em {
         font-size: 20px;
