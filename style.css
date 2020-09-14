@@ -1,18 +1,16 @@
-/* Done */
 @media only screen and (min-width: 1441px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    .container {
-        width: 70%;
+    .nav-container {
+        justify-content: center;
         margin: auto;
         overflow: hidden;
+        width: 70%;
     }
-
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -20,20 +18,27 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
     }
-    #mainNav ul {
-        padding: 0;
-        list-style: none;
+    #column-L {
+        float: left;
+        padding-top: 13px;
     }
-    #mainNav #right {
+    #column-R {
         float: right;
     }
+    #mainNav ul {
+        margin: 16px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 17px 15px;
     }
     #mainNav em {
         font-size: 20px;
@@ -41,6 +46,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 70%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -163,21 +175,19 @@
     }
 }
 
-/* Done */
 @media only screen and (max-width: 1440px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    .container {
-        width: 80%;
+    .nav-container {
+        justify-content: center;
         margin: auto;
         overflow: hidden;
+        width: 80%;
     }
-
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -185,20 +195,27 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
     }
-    #mainNav ul {
-        padding: 0;
-        list-style: none;
+    #column-L {
+        float: left;
+        padding-top: 13px;
     }
-    #mainNav #right {
+    #column-R {
         float: right;
     }
+    #mainNav ul {
+        margin: 16px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 17px 15px;
     }
     #mainNav em {
         font-size: 20px;
@@ -206,6 +223,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -330,7 +354,6 @@
     }
 }
 
-/* Done */
 @media only screen and (max-width: 1024px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -339,12 +362,12 @@
         /* line-height: 1.6; */
     }
 
-    .container {
-        width: 90%;
+    .nav-container {
+        justify-content: center;
         margin: auto;
         overflow: hidden;
+        width: 85%;
     }
-
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -352,20 +375,27 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
     }
-    #mainNav ul {
-        padding: 0;
-        list-style: none;
+    #column-L {
+        float: left;
+        padding-top: 13px;
     }
-    #mainNav #right {
+    #column-R {
         float: right;
     }
+    #mainNav ul {
+        margin: 16px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 17px 12px;
     }
     #mainNav em {
         font-size: 20px;
@@ -373,6 +403,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -493,21 +530,19 @@
     }
 }
 
-/* Done */
 @media only screen and (max-width: 768px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    .container {
-        width: 100%;
+    .nav-container {
+        justify-content: center;
         margin: auto;
         overflow: hidden;
+        width: 85%;
     }
-
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -515,20 +550,27 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
     }
-    #mainNav ul {
-        padding: 0;
-        list-style: none;
+    #column-L {
+        float: left;
+        padding-top: 13px;
     }
-    #mainNav #right {
+    #column-R {
         float: right;
     }
+    #mainNav ul {
+        margin: 16px auto;
+        padding: 0px;
+        list-style: none;
+    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 17px 11px;
     }
     #mainNav em {
         font-size: 20px;
@@ -536,6 +578,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -553,7 +602,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-        padding: 50px 0px 0px 0px;
+        padding: 40px 0px 0px 0px;
     }
 
     .flex-container {
@@ -645,6 +694,9 @@
     #contact-img-M {
         display: none;
     }
+    span {
+        display: inline-block;
+    }
 
     #footer {
         text-align: center;
@@ -663,15 +715,15 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    .container {
+    .nav-container {
+        justify-content: center;
         width: 100%;
         margin: auto;
         overflow: hidden;
+        text-align: center;
     }
-
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -679,20 +731,26 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 55px;
+    }
+    #column-L {
+        display: none;
+    }
+    #column-R {
+        float: none;
     }
     #mainNav ul {
-        padding: 0;
-        list-style: none;
+        margin: 7px 0px;
+        padding: 0px;
+        width: 100%;
     }
-    #mainNav #right {
-        float: right;
-    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 5px 21px;
     }
     #mainNav em {
         font-size: 20px;
@@ -700,6 +758,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -717,7 +782,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 85%;
-        padding: 50px 0px 0px 0px;
+        padding: 30px 0px 0px 0px;
     }
 
     .flex-container {
@@ -806,6 +871,9 @@
         margin-right: auto;
         width: 90%;
     }
+    span {
+        display: inline-block;
+    }
 
     #footer {
         text-align: center;
@@ -829,15 +897,15 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    /* .container {
-        width: 80%;
+    .nav-container {
+        justify-content: center;
+        width: 100%;
         margin: auto;
         overflow: hidden;
-    } */
-
+        text-align: center;
+    }
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -845,20 +913,26 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
+    }
+    #column-L {
+        display: none;
+    }
+    #column-R {
+        float: none;
     }
     #mainNav ul {
-        padding: 0;
-        list-style: none;
+        margin: 7px 0px;
+        padding: 0px;
+        width: 100%;
     }
-    #mainNav #right {
-        float: right;
-    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 5px 15px;
     }
     #mainNav em {
         font-size: 20px;
@@ -883,7 +957,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 85%;
-        padding: 50px 0px 0px 0px;
+        padding: 25px 0px 0px 0px;
     }
 
     .flex-container {
@@ -972,6 +1046,9 @@
         margin-right: auto;
         width: 90%;
     }
+    span {
+        display: inline-block;
+    }
 
     #footer {
         text-align: center;
@@ -995,15 +1072,15 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
         margin: 0;
-        /* line-height: 1.6; */
     }
 
-    /* .container {
-        width: 65%;
+    .nav-container {
+        justify-content: center;
+        width: 100%;
         margin: auto;
         overflow: hidden;
-    } */
-
+        text-align: center;
+    }
     #mainNav {
         display: flex;
         background: #2e4169;
@@ -1011,20 +1088,26 @@
         position: fixed;
         top: 0;
         width: 100%;
+        height: 50px;
+    }
+    #column-L {
+        display: none;
+    }
+    #column-R {
+        float: none;
     }
     #mainNav ul {
-        padding: 0;
-        list-style: none;
+        margin: 7px 0px;
+        padding: 0px;
+        width: 100%;
     }
-    #mainNav #right {
-        float: right;
-    }
+
     #mainNav li:hover {
         background: #000;
     }
     #mainNav li {
         display: inline;
-        padding: 25px 15px;
+        padding: 5px 8px;
     }
     #mainNav em {
         font-size: 20px;
@@ -1032,6 +1115,13 @@
     #mainNav a {
         color: #fff;
         text-decoration: none;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        justify-content: center;
     }
 
     #hero {
@@ -1049,7 +1139,7 @@
         margin-left: auto;
         margin-right: auto;
         width: 85%;
-        padding: 50px 0px 10px 0px;
+        padding: 25px 0px 10px 0px;
     }
 
     .flex-container {
@@ -1148,6 +1238,10 @@
         width: 90%;
         padding-top: 20px;
     }
+    span {
+        display: inline-block;
+    }
+
     #footer {
         text-align: center;
     }
